@@ -173,10 +173,7 @@ def compute_and_draw():
 
     popup_info(
         "Contact angle result",
-        f"Contact angle: {theta:.2f}°\n\n"
-        f"Circle center (primed): ({cxp:.2f}, {cyp:.2f})\n"
-        f"Radius: {r:.2f}\n"
-        f"Edge points used: {E_p.shape[0]}"
+        f"Contact angle: {theta:.2f}°"
     )
 
 def onclick(event):
